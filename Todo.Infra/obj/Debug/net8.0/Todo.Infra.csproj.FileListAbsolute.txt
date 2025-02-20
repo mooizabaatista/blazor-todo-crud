@@ -1,0 +1,17 @@
+C:\Users\p-mbsilva\projetos\Todo\Todo.Infra\bin\Debug\net8.0\Todo.Infra.deps.json
+C:\Users\p-mbsilva\projetos\Todo\Todo.Infra\bin\Debug\net8.0\Todo.Infra.runtimeconfig.json
+C:\Users\p-mbsilva\projetos\Todo\Todo.Infra\bin\Debug\net8.0\Todo.Infra.dll
+C:\Users\p-mbsilva\projetos\Todo\Todo.Infra\bin\Debug\net8.0\Todo.Infra.pdb
+C:\Users\p-mbsilva\projetos\Todo\Todo.Infra\bin\Debug\net8.0\Todo.Domain.dll
+C:\Users\p-mbsilva\projetos\Todo\Todo.Infra\bin\Debug\net8.0\Todo.Domain.pdb
+C:\Users\p-mbsilva\projetos\Todo\Todo.Infra\obj\Debug\net8.0\Todo.Infra.csproj.AssemblyReference.cache
+C:\Users\p-mbsilva\projetos\Todo\Todo.Infra\obj\Debug\net8.0\Todo.Infra.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\p-mbsilva\projetos\Todo\Todo.Infra\obj\Debug\net8.0\Todo.Infra.AssemblyInfoInputs.cache
+C:\Users\p-mbsilva\projetos\Todo\Todo.Infra\obj\Debug\net8.0\Todo.Infra.AssemblyInfo.cs
+C:\Users\p-mbsilva\projetos\Todo\Todo.Infra\obj\Debug\net8.0\Todo.Infra.csproj.CoreCompileInputs.cache
+C:\Users\p-mbsilva\projetos\Todo\Todo.Infra\obj\Debug\net8.0\Todo.Infra.csproj.Up2Date
+C:\Users\p-mbsilva\projetos\Todo\Todo.Infra\obj\Debug\net8.0\Todo.Infra.dll
+C:\Users\p-mbsilva\projetos\Todo\Todo.Infra\obj\Debug\net8.0\refint\Todo.Infra.dll
+C:\Users\p-mbsilva\projetos\Todo\Todo.Infra\obj\Debug\net8.0\Todo.Infra.pdb
+C:\Users\p-mbsilva\projetos\Todo\Todo.Infra\obj\Debug\net8.0\Todo.Infra.genruntimeconfig.cache
+C:\Users\p-mbsilva\projetos\Todo\Todo.Infra\obj\Debug\net8.0\ref\Todo.Infra.dll

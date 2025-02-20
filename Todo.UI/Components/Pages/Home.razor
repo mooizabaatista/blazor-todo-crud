@@ -1,0 +1,68 @@
+﻿@page "/"
+@using Todo.Application.Dtos
+@using Todo.Application.Interfaces
+
+@inject ITodoService _todoService
+
+
+<PageTitle>Todo App</PageTitle>
+
+
+
+<div class="row">
+    @if (Todos == null || !Todos.Any())
+    {
+        <div class="mt-4 p-3 bg-light border shadow-lg text-center text-dark rounded mb-5">
+            <h3 class="mb-3">Parece que você ainda não tem nenhuma tarefa...</h3>
+            <a href="/todo/create-or-edit" class="btn btn-success w-25">Cadastrar</a>
+        </div>
+    }
+    else
+    {
+        <div class="mt-4 p-3 bg-light border shadow-lg text-center text-dark rounded mb-5">
+            <h3 class="mb-3">Lista de Tarefas</h3>
+            <a href="/todo/create-or-edit" class="btn btn-success w-25">Cadastrar</a>
+        </div>
+
+        @foreach (var todo in Todos.OrderByDescending(x => x.Data))
+        {
+            <div class="col-12 col-md-6 mb-3">
+                <div class="card">
+                    <h5 class="card-header d-flex justify-content-between @(todo.Done ? "bg-success text-light opacity-50" : "")">
+                        <span>@todo.Data.ToString("dd/MM/yyyy")</span>
+                        @if (todo.Done)
+                        {
+                            <span class="fa-solid fa fa-check text-light"></span>
+                        }
+                    </h5>
+                    <div class="card-body @(todo.Done ? "opacity-50" : "")" style="@(todo.Done ? "text-decoration:line-through" : "")">
+                        <h5 class="card-title">@todo.Title</h5>
+                        <p class="card-text">@todo.Description</p>
+                    </div>
+                    <div class="card-footer">
+                        <div class="d-flex align-items-center gap-2">
+                            <a class="btn btn-info fa-solid fa fa-pencil text-light" href="/todo/create-or-edit/@todo.Id"></a>
+                            <a class="btn btn-danger fa-solid fa fa-trash text-light" href="/todo/delete/@todo.Id"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    }
+</div>
+
+
+@code {
+    private List<TodoDto> Todos { get; set; } = new List<TodoDto>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        var response = await _todoService.GetAllAsync();
+        Todos = response;
+    }
+
+    private void ToggleDone()
+    {
+
+    }
+}

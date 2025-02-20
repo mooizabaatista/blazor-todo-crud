@@ -1,0 +1,11 @@
+C:\Users\p-mbsilva\projetos\Todo\Todo.Shared\bin\Debug\net8.0\Todo.Shared.deps.json
+C:\Users\p-mbsilva\projetos\Todo\Todo.Shared\bin\Debug\net8.0\Todo.Shared.dll
+C:\Users\p-mbsilva\projetos\Todo\Todo.Shared\bin\Debug\net8.0\Todo.Shared.pdb
+C:\Users\p-mbsilva\projetos\Todo\Todo.Shared\obj\Debug\net8.0\Todo.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\p-mbsilva\projetos\Todo\Todo.Shared\obj\Debug\net8.0\Todo.Shared.AssemblyInfoInputs.cache
+C:\Users\p-mbsilva\projetos\Todo\Todo.Shared\obj\Debug\net8.0\Todo.Shared.AssemblyInfo.cs
+C:\Users\p-mbsilva\projetos\Todo\Todo.Shared\obj\Debug\net8.0\Todo.Shared.csproj.CoreCompileInputs.cache
+C:\Users\p-mbsilva\projetos\Todo\Todo.Shared\obj\Debug\net8.0\Todo.Shared.dll
+C:\Users\p-mbsilva\projetos\Todo\Todo.Shared\obj\Debug\net8.0\refint\Todo.Shared.dll
+C:\Users\p-mbsilva\projetos\Todo\Todo.Shared\obj\Debug\net8.0\Todo.Shared.pdb
+C:\Users\p-mbsilva\projetos\Todo\Todo.Shared\obj\Debug\net8.0\ref\Todo.Shared.dll
